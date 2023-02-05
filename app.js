@@ -102,6 +102,6 @@ const calculate = (n1, operator, n2) => {
         return (firtNum * seconNum).toFixed(4);
     }
     if (operator === 'divide') {
-        (firtNum / seconNum).toFixed(4);
+        return (firtNum / seconNum).toFixed(4);
     }
 }
