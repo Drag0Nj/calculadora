@@ -93,15 +93,15 @@ const calculate = (n1, operator, n2) => {
     const firtNum = parseFloat(n1);
     const seconNum = parseFloat(n2);
     if (operator === 'add') {
-      return firtNum + seconNum;
+      return (firtNum + seconNum).toFixed(4);
     }
     if (operator === 'subtract') {
-        return firtNum - seconNum;
+        return (firtNum - seconNum).toFixed(4);
     }
     if (operator === 'multiply') {
-        return firtNum * seconNum;
+        return (firtNum * seconNum).toFixed(4);
     }
     if (operator === 'divide') {
-        return firtNum / seconNum;
+        (firtNum / seconNum).toFixed(4);
     }
 }
